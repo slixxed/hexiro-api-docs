@@ -28,12 +28,12 @@ schemes:
 - "https"
 paths:
   /group/{id}:
-    post:
+    get:
       tags:
       - "group"
-      summary: "Add a new pet to the store"
+      summary: "Find group by ID"
       description: ""
-      operationId: "addPet"
+      operationId: "getGroupById"
       consumes:
       - "application/json"
       - "application/xml"
