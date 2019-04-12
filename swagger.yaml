@@ -41,7 +41,7 @@ paths:
       - "application/xml"
       - "application/json"
       parameters:
-        - name: "id"
+      - name: "id"
         in: "path"
         description: "ID of group to return"
         required: true
