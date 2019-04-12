@@ -30,7 +30,7 @@ paths:
   /group:
     post:
       tags:
-      - "groups"
+      - "group"
       summary: "Add a new pet to the store"
       description: ""
       operationId: "addPet"
