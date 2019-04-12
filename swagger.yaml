@@ -13,19 +13,19 @@ host: "hexiro.com/api"
 basePath: "/v1"
 tags:
 - name: "group"
-  description: "Everything about your Pets"
+  description: "Everything about your Groups"
   externalDocs:
     description: "Find out more"
-    url: "http://swagger.io"
+    url: "https://hexiro.com"
 - name: "store"
-  description: "Access to Petstore orders"
+  description: "Access to Hexiro store"
 - name: "user"
   description: "Operations about user"
   externalDocs:
     description: "Find out more about our store"
-    url: "http://swagger.io"
+    url: "http://hexiro.com"
 schemes:
-- "http"
+- "https"
 paths:
   /group:
     post:
