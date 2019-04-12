@@ -27,10 +27,10 @@ tags:
 schemes:
 - "http"
 paths:
-  /pet:
+  /group:
     post:
       tags:
-      - "pet"
+      - "groups"
       summary: "Add a new pet to the store"
       description: ""
       operationId: "addPet"
