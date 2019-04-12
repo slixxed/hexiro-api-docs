@@ -27,7 +27,7 @@ tags:
 schemes:
 - "https"
 paths:
-  /group:
+  /group/{id}:
     post:
       tags:
       - "group"
@@ -41,12 +41,12 @@ paths:
       - "application/xml"
       - "application/json"
       parameters:
-      - in: "body"
-        name: "body"
-        description: "Pet object that needs to be added to the store"
+        - name: "id"
+        in: "path"
+        description: "ID of group to return"
         required: true
-        schema:
-          $ref: "#/definitions/Pet"
+        type: "integer"
+        format: "int64"
       responses:
         405:
           description: "Invalid input"
